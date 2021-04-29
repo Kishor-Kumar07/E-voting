@@ -16,7 +16,7 @@ import Login from "./components/auth/Login";
 import PrivateRoute from "./components/private-route/PrivateRoute";
 import Dashboard from "./components/dashboard/Dashboard";
 import Web3 from 'web3'
-import TruffleContract from 'truffle-contract'
+import TruffleContract from 'truffle-contract' 
 import Migrations from '../../build/contracts/Migrations.json';
 // Check for token to keep user logged in
 if (localStorage.jwtToken) {
