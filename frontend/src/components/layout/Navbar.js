@@ -3,11 +3,13 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { logoutUser } from "../../actions/authActions";
+import Vote from '../../../src/Images/vote.png'
 class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light ">
         <div className="container">
+          <img src={Vote} height="70px"/>
           <b> <Link className="navbar-brand" style={{ color: "#d9534f" }} to={"/login"}>Digital Voting</Link>
           </b>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">

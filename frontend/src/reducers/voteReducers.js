@@ -13,10 +13,10 @@ import {
       case SET_VOTE:
         return {
           ...state,
-          [action.payload.id]:action.payload.user
+          [action.payload.id]:action.payload
         };
-      default:
+        default:
         return state;
     }
   }
-  export default voteReducer;
+  export default voteReducer; 
